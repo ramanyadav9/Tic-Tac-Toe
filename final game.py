@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import messagebox
 
+# two player is needed to play
+
 class TicTacToeGUI:
     def __init__(self):
         self.root = tk.Tk()

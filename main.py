@@ -1,6 +1,8 @@
 def sum(a,b,c):
     return a+b+c
 
+# simple command line play no GUI used 
+
 def printBoard(xstate, zstate):
     zero = 'X' if xstate[0] else ('O' if zstate[0] else 0)
     one = 'X' if xstate[1] else ('O' if zstate[1] else 1)

@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import messagebox
 import random
 
+# playing game with computer no need for 2 player
+
 class TicTacToeGUI:
     def __init__(self):
         self.root = tk.Tk()
